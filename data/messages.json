@@ -1,0 +1,10 @@
+[
+  { "id": "msg-welcome-1", "type": "welcome", "text": "سلام! من VIBO هستم. آماده‌ای امروز یک چیز تازه یاد بگیریم؟" },
+  { "id": "msg-welcome-2", "type": "welcome", "text": "خوش برگشتی! هر وقت آماده بودی، ادامه می‌دهیم." },
+  { "id": "msg-new-user-1", "type": "newUser", "text": "سلام! من VIBO هستم و کنارت می‌مانم تا قدم‌به‌قدم هوش مصنوعی را یاد بگیری. اگر دوست داشتی، با اولین درس شروع کن." },
+  { "id": "msg-encourage-1", "type": "encourage", "text": "هر درس کوچک، یک قدم بزرگ است." },
+  { "id": "msg-encourage-2", "type": "encourage", "text": "لازم نیست عجله کنی؛ همین که امروز چیزی یاد گرفتی کافی است." },
+  { "id": "msg-done-1", "type": "lessonDone", "text": "آفرین! یک درس دیگر تمام شد." },
+  { "id": "msg-done-2", "type": "lessonDone", "text": "عالی بود! امتیاز جدیدت ثبت شد." },
+  { "id": "msg-daily-1", "type": "dailyHint", "text": "امروز یک درس کوتاه بخوان و ببین چقدر ساده است." }
+]

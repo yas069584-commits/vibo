@@ -1,0 +1,10 @@
+[
+  { "id": "beginners", "title": "هوش مصنوعی برای مبتدیان", "image": "images/categories/beginners.jpg", "order": 1 },
+  { "id": "ai-tools", "title": "ابزارهای هوش مصنوعی", "image": "images/categories/ai-tools.jpg", "order": 2 },
+  { "id": "education", "title": "تحصیل و آموزش", "image": "images/categories/education.jpg", "order": 3 },
+  { "id": "home-life", "title": "خانه و زندگی روزمره", "image": "images/categories/home-life.jpg", "order": 4 },
+  { "id": "business", "title": "کسب‌وکار", "image": "images/categories/business.jpg", "order": 5 },
+  { "id": "creativity", "title": "خلاقیت و هنر", "image": "images/categories/creativity.jpg", "order": 6 },
+  { "id": "content", "title": "تولید محتوا", "image": "images/categories/content.jpg", "order": 7 },
+  { "id": "programming", "title": "برنامه‌نویسی", "image": "images/categories/programming.jpg", "order": 8 }
+]

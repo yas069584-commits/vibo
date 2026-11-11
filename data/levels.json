@@ -1,0 +1,27 @@
+[
+  {
+    "level": 1,
+    "title": "تازه‌وارد",
+    "minXp": 0
+  },
+  {
+    "level": 2,
+    "title": "کنجکاو",
+    "minXp": 20
+  },
+  {
+    "level": 3,
+    "title": "کاوشگر",
+    "minXp": 50
+  },
+  {
+    "level": 4,
+    "title": "ماهر",
+    "minXp": 90
+  },
+  {
+    "level": 5,
+    "title": "استاد VIBO",
+    "minXp": 130
+  }
+]

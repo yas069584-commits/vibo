@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>VIBO | یادگیری هوش مصنوعی</title>
+  <meta name="description" content="VIBO؛ آموزش ساده و فارسی هوش مصنوعی، از صفر و با درس‌های کوتاه.">
+  <meta name="theme-color" content="#2563EB">
+
+  <!-- فایل نصب‌شدنی بودن اپ -->
+  <link rel="manifest" href="./manifest.json">
+
+  <!-- آیکون‌ها (اندروید و آیفون) -->
+  <link rel="icon" type="image/png" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="VIBO">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- فونت اصلی زودتر بارگذاری شود -->
+  <link rel="preload" href="./fonts/Vazir-Medium.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip" href="#app">رفتن به محتوا</a>
+
+  <!-- هدر: لوگو، نام اپ و میان‌بر تنظیمات -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" aria-label="VIBO، صفحه‌ی اصلی">
+        <img src="./icons/icon-192.png" alt="" width="36" height="36">
+        <span>VIBO</span>
+      </a>
+      <a class="icon-btn" href="#/profile" aria-label="تنظیمات و پروفایل" data-ico="sliders"></a>
+    </div>
+  </header>
+
+  <!-- محتوای هر صفحه اینجا نمایش داده می‌شود -->
+  <main id="app" tabindex="-1">
+    <p class="loading">در حال بارگذاری…</p>
+  </main>
+
+  <!-- نوار «نسخه‌ی جدید آماده است» -->
+  <div id="update-bar" class="update-bar" role="status" hidden>
+    <span>نسخه‌ی جدید آماده است —</span>
+    <button type="button" id="update-btn">به‌روزرسانی</button>
+  </div>
+
+  <!-- نوار پایین -->
+  <nav class="bottom-nav" aria-label="منوی اصلی">
+    <a href="#/" data-nav="home"><span data-ico="home"></span><span>خانه</span></a>
+    <a href="#/lessons" data-nav="lessons"><span data-ico="book"></span><span>درس‌ها</span></a>
+    <a href="#/saved" data-nav="saved"><span data-ico="heart"></span><span>ذخیره‌شده‌ها</span></a>
+    <a href="#/profile" data-nav="profile"><span data-ico="user"></span><span>پروفایل</span></a>
+  </nav>
+
+  <noscript><p class="loading">برای استفاده از VIBO باید جاوااسکریپت مرورگر فعال باشد.</p></noscript>
+  <script src="./app.js"></script>
+</body>
+</html>
